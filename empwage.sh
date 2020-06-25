@@ -13,16 +13,16 @@ randomPresent=$((RANDOM%3))
 fullTime=2
 partTime=1
 absent=0
-	case  $randomPresent in
-	$fullTime)
-		empWorkingHour=8
+	if (empworkingHours = 8)
+	{
 		dailySalary=$(($EMP_RATE_PER_HOUR*$empWorkingHour))
 
-	;;
-	$partTime)
-		empWorkingHour=4
+	}
+	else
+	{
 		dailySalary=$(($EMP_RATE_PER_HOUR*$empWorkingHour))
- esac
+	}
+ 
  echo $dailySalary
  
  monthlywage= ($dailySalary * $randomPresent)
