@@ -1,3 +1,7 @@
+#!/bin/bash
+
+echo "welcome to wage computation"
+
 function main(){ 
 EMP_RATE_PER_HOUR=100
 monthlywage=0
