@@ -3,7 +3,7 @@
 echo "welcome to employee wage computation"
 
 function main(){ 
-EMP_RATE_PER_HOUR=300
+EMP_RATE_PER_HOUR=100
 monthlywage=0
 i=0
 j=0
