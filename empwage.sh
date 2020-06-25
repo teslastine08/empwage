@@ -40,5 +40,4 @@ main
 echo "dailySalaryIs"
 echo ${arrSalary[@]}
 
-echo "totalSalary"
-echo ${arrTotalSalary[@]}
+
